@@ -11,15 +11,15 @@ import turtle
 
 turtle = turtle.Turtle()
 
-
 for _ in range(4):
     turtle.shape('square')
     turtle.color('blue')
     turtle.forward(100)
     turtle.right(90)
-turtle.left(90)
+
 turtle.up()
-turtle.fd(30)
+turtle.bk(20)
+turtle.left(90)
 turtle.down()
 
 for _ in range(4):
@@ -28,19 +28,21 @@ for _ in range(4):
    turtle.left(90)
    turtle.forward(100)
 
-turtle.left(90)
 turtle.up()
-turtle.fd(30)
+turtle.fd(20)
+turtle.left(90)
+turtle.bk(20)
 turtle.down()
 
 for _ in range(4):
    turtle.shape('circle')
    turtle.color('orange')
-   turtle.forward(100)
+   turtle.bk(100)
    turtle.left(90)
-turtle.left(90)
+
 turtle.up()
-turtle.fd(30)
+turtle.fd(20)
+turtle.left(90)
 turtle.down()
 
 for _ in range(4):
@@ -48,3 +50,19 @@ for _ in range(4):
    turtle.color('red')
    turtle.right(90)
    turtle.forward(100)
+
+turtle.up()
+turtle.bk(100)
+turtle.right(90)
+turtle.fd(120)
+turtle.right(90)
+turtle.fd(20)
+turtle.left(180)
+turtle.down()
+
+turtle.color('black')
+turtle.shape('arrow')
+
+for _ in range(4):
+    turtle.forward(260)
+    turtle.left(90)
