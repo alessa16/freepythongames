@@ -9,11 +9,10 @@ import turtle
 import random
 
 turtle = turtle.Turtle()
-turtle.speed(10)
 
 colors = ['purple', 'blue', 'yellow', 'green', 'pink', 'orange', 'red']
-for c in range(360):
+for c in range(720):
     color = random.choice(colors)
     turtle.color(color)
-    turtle.forward(5)
-    turtle.right(5)
+    turtle.forward(2)
+    turtle.right(1)
